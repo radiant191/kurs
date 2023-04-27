@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+}
+.header{
+    background-color: black;
+    padding-top: 12px;
+    padding-bottom: 12px; /*полоска снизу */
+}
+.navbar{
+    margin: auto;
+    display: flex; /* сделали элемент гибким*/
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none; /* отключаем точки у списка*/
+    display: flex;
+    text-align: center;
+}
+.navbar-item{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 22px;
+}
+.navbar-link{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar-contacts{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 22px;
+}
+.navbar-text{
+    margin-bottom: 4px;
+    display: block;
+    color: #fff;
+    font-size: 22px;
+    line-height: 16px;
+}
+.navbar-phone{
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    margin-left: 50px;
+}
+.main{
+    width: 1300px;
+    height: 800px;
+    justify-content: center;
+    border: solid black 1px;
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.main-catalog{
+    background-color: black;
+    width: 1300px;
+    height: 60px;
+    color: white;
+}
+.ul-main{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+
+}
+.ul-main-catalog{
+    margin-left: 75px;
+}
+.ul-main-otziv{
+    margin-right: 75px;
+}
+.ul-main>li{
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.bottom-main{
+    width: 400px;
+    height: 740px;
+    border-right: solid 1px black;
+
+}
+.bottom-main-catalog{
+    list-style: none;
+    display: flex ;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.bottom-main-catalog{
+    list-style: none;
+    display: block;
+    justify-content: center;
+    margin-left: 75px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.bottom-main-catalog>li{
+    margin-top: 12px;
+}
+.list-last-bottom{
+    margin-left: 65px;
+}
