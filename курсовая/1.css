@@ -82,7 +82,7 @@ body{
     margin-left: 75px;
 }
 .ul-main-otziv{
-    margin-right: 105px;
+    margin-right: 135px;
 }
 .ul-main>li{
     margin-top: 15px;
@@ -237,6 +237,98 @@ body{
     min-width: 400px;
     max-width: 400px;
     max-height: 200px;
+}
+.main-choose-file{
+    margin-left: 75px;
+    margin-top: 15px;
+}
+.main-anon-butt{
+    float: right;
+    margin-top: 15px;
+    margin-right: 75px;
+}
+.anonimno{
+    margin-left: 165px;
+}
+.publication{
+    border: 1px solid black;
+    width: 160px;
+    height: 40px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 35px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 67px;
+    cursor: pointer;
+}
+.go-to-post{
+    float: right;
+    width: 170px;
+    height: 40px;
+    border: 1px solid black;
+    margin-right: 15px;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.otziv-1-r{
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 260px;
+    height: 90px;
+    float: right;
+    margin-top: 5px;
+}
+.otziv-1-img{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.otziv-1-r{
+    font-size: 13px;
+    display: block;
+    align-content: flex-start;
+}
+.otziv-1-r-data{
+    display: flex;
+    margin-top: 15px;
+    color: grey;
+}
+.otziv-1-r-1{
+    display: flex;
+    margin-top: -14px;
+    color: grey;
+}
+/* 2.html*/
+.registr{
+    border: 2px solid black;
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.registration{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 350px;
+    height: 100px;
+    display: flex;
+}
+.autorisation{
+    border-bottom: 2px solid black;
+    display: flex;
+    float: right;
+    width: 340px;
+    height: 100px;
 }
 
 
