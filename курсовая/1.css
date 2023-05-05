@@ -330,5 +330,94 @@ body{
     width: 340px;
     height: 100px;
 }
+.bottom-main-2-voiti{
+    width: 450px;
+    height: 80px;
+    border: 1px black solid;
+    margin-left: 55px;
+    margin-top: 45px;
+}
+.text1{
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 55px;
+    color: black;
+}
+.text2{
+    font-size: 15px;
+    color: black;
+    font-weight: 700;
+    margin-left: 6px;
+    
+}
+.bottom-main-forum-posts{
+    width: 500px;
+    height: 400px;
+    margin-right: 45px;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 1px black solid;
+}
+.ochki{
+    width: 120px;
+    height: 110px;
+    margin-left: 170px;
+    border: aqua 1px solid;
+    
+}
+.post1-text{
+    margin-top: 10px;
+    height: 100px;
+    width: 520px;
+}
+.bestpost{
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 125px;
+}
+.publick-post{
+    color: grey;
+}
+.answers{
+    border: 1px solid black;
+    width: 155px;
+    height: 40px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.answers:hover{
+    background-color: grey;
+    color: white;
+}
+.regavt{
+    border: 1px solid black;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    cursor: pointer;
+}
+.regavt:hover{
+    background-color: grey;
+    color: white;
 
+}
+.regavt1{
+    border: 1px solid black;
+    width: 140px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+main{
+    margin-left: 60px;
+}
 
