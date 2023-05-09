@@ -150,10 +150,12 @@ body{
 }
 .main-forum-red{
     border: 1px black solid;
-    height: 23px;
+    height: 26px;
     color: white;
     background-color: black;
     cursor: pointer;
+    justify-content: center;
+    
     
 }
 .main-forum-posting{
@@ -322,13 +324,23 @@ body{
     width: 350px;
     height: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 29px;
+    font-weight: 600;
 }
 .autorisation{
     border-bottom: 2px solid black;
     display: flex;
-    float: right;
-    width: 340px;
+    font-size: 29px;
+    font-weight: 600;
+    width: 347px;
     height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
 }
 .bottom-main-2-voiti{
     width: 450px;
@@ -419,5 +431,53 @@ body{
 }
 main{
     margin-left: 60px;
+}
+.registration {
+    float: left;
+}
+.pochta{
+    border: 1px black solid;
+    width: 400px;
+    height: 60px;
+}
+.parol{
+    border: 1px black solid;
+    width: 400px;
+    height: 60px;
+}
+.repitparol{
+    border: 1px black solid;
+    width: 400px;
+    height: 60px;
+}
+.tabl-registr{
+    margin-left: 148px;
+    margin-top: 145px;
+}
+.pochta{
+    margin-bottom: 30px;
+}
+.parol{
+    margin-bottom: 30px;
+}
+.pochta-1{
+    width: 400px;
+    height: 60px;
+    font-size: 27px;
+}
+.knopka-reg{
+    border-radius: 25px;
+    width: 235px;
+    height: 55px;
+    margin-top: 55px;
+    font-size: 23px;
+    margin-left: 75px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
 }
 
