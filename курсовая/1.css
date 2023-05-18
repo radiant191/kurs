@@ -45,7 +45,9 @@ body{
     display: block;
     color: #fff;
     font-size: 22px;
+    text-decoration: none;
     line-height: 16px;
+    margin-right: 50px;
 }
 .navbar-phone{
     font-weight: 700;
@@ -54,8 +56,50 @@ body{
     text-decoration: none;
     color: white;
 }
+.awdawd{
+    color: black;
+    text-decoration: none;
+}
 .logo{
     margin-left: 50px;
+}
+.zxc{
+    text-decoration: none;
+    color: black;
+    
+}
+.zxc1{
+    text-decoration: none;
+    color: white;
+}
+.zxc2{
+    text-decoration: none;
+    color: white;
+}
+.zxc3{
+    text-decoration: none;
+    color: white;
+}
+.zxc4{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.zxc4:hover{
+    width: 75px;
+    height: 75px;
+}
+
+
+
+.zxc5{
+    margin-bottom: 15px;
 }
 .main{
     width: 1300px;
@@ -479,5 +523,113 @@ main{
     align-items: center;
     font-weight: 500;
     cursor: pointer;
+}
+.zxc6{
+    display: none;
+}
+@media(max-width:730px){
+    .zxc6{
+        display: block;
+        float: right;
+    }
+    .navbar-menu{
+        display: none;
+    }
+    .registr{
+        width: 350px;
+    }
+    
+    .navbar-text{
+        display: none
+    }
+    .pochta-1{
+        width: 350px;
+    }
+    .pochta{
+        width: 350px;
+    }
+    .parol{
+        width: 350px;
+        
+    }
+    .bottom-main-2{
+        border-right: 0px;
+    }
+    .repitparol{
+        width: 350px;
+    }
+    .tabl-registr{
+        margin-left: 0px;
+    }
+    .dropbtn1 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  display: flex;
+    float: right;
+}
+    .main{
+        margin-left: 15px;
+        width: 600px;
+    }
+    .main-catalog{
+        display: none;
+    }
+    .bottom-main{
+        display: none;
+    }
+    .bottom-main-3{
+        display: none;
+    }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+    margin-left: 400px;
+}
+    .dropdown2 {
+  position: relative;
+  display: inline-block;
+  margin-right: 85px;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content1 a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown1:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown1:hover .dropbtn1 {background-color: #3e8e41;}
+    
+}
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn1 {background-color: #3e8e41;}
+    
 }
 
